@@ -5,6 +5,17 @@ Pada praktikum ke 14  ini dilakukan implementasi CRUD dengan upload dan download
 - Pada class Daftar tambahkan label dan textField untuk pertanyaan. <br>
   <img width="401" height="269" alt="image" src="https://github.com/user-attachments/assets/a7d6abf6-0e09-48d5-9cfd-a97b308c2047" /> <br>
 Kode ini berfungsi untuk proses pendaftaran akun baru. Sistem memeriksa apakah semua TextField termasuk TextField pertanyaan keamanan telah terisi. Pertanyaan keamanan (TfFav) digunakan sebagai data tambahan untuk verifikasi jika suatu saat pengguna perlu ubah password akun. Setelah validasi, sistem mengecek apakah username sudah ada di database. Jika belum, data username, password, dan pertanyaan keamanan disimpan, lalu pengguna dialihkan ke halaman login. Jika username sudah terdaftar, pendaftaran dibatalkan dan pengguna diminta mengganti username. <br>
-<img width="748" height="450" alt="image" src="https://github.com/user-attachments/assets/09f6b628-c727-4db3-8b03-2c92e875f0d8" />
+  <img width="748" height="450" alt="image" src="https://github.com/user-attachments/assets/09f6b628-c727-4db3-8b03-2c92e875f0d8" />
+- Tambahkan dialog baru untuk pertanyaannya <br>
+  <img width="403" height="232" alt="image" src="https://github.com/user-attachments/assets/ebf467b2-14f8-4f3b-9581-cd7f07281734" /> <br>
+  Kode ini digunakan saat tombol Selesai diklik pada dialog input pertanyaan keamanan. Program memeriksa apakah TextField TfFav berisi teks atau tidak. Jika masih kosong, muncul pesan peringatan dan kursor diarahkan kembali ke TextField agar pengguna mengisinya. Jika sudah terisi, teks dari TfFav disimpan ke variabel jawaban, kemudian dialog ditutup dengan dispose() sehingga pengguna kembali ke tampilan utama.
+  <img width="748" height="178" alt="image" src="https://github.com/user-attachments/assets/4733eafd-1e38-41a7-926f-ac514cb79b6b" />
+- Pada class “ResetPassword” kode ini berfungsi untuk mencari akun berdasarkan username lalu menampilkan dialog pertanyaan keamanan. Jika jawaban yang diberikan sesuai dengan data di database, maka pengguna diizinkan melanjutkan proses reset password. Jika tidak sesuai, proses dihentikan dan reset password tidak dapat dilakukan. <br>
+  <img width="748" height="414" alt="image" src="https://github.com/user-attachments/assets/391fac97-aaaa-4964-b945-48807fab5a7b" />
+  <img width="608" height="211" alt="image" src="https://github.com/user-attachments/assets/002a684d-8a7a-42c7-8876-9216bbdf1d0d" />
 
-- 
+# Package DataMusik
+
+
+
+
