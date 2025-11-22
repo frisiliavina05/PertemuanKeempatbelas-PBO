@@ -20,7 +20,7 @@ Kode ini berfungsi untuk proses pendaftaran akun baru. Sistem memeriksa apakah s
   Kode ini digunakan untuk mengekspor data album dari tabel ke file CSV. Pengguna memilih lokasi penyimpanan menggunakan JFileChooser, lalu program menuliskan setiap data dalam tabel ke dalam file dengan pemisah titik koma. Jika file sudah ada, pengguna diminta konfirmasi untuk menimpa. Setelah berhasil, muncul pesan bahwa data berhasil disimpan. Jika gagal, ditampilkan pesan error.
   <img width="736" height="683" alt="image" src="https://github.com/user-attachments/assets/71a12a26-b256-474c-b759-61399d44c6b5" /> <br>
   <img width="676" height="318" alt="image" src="https://github.com/user-attachments/assets/7265394d-5ecb-43f4-ae35-3cd5751e14ab" />
-- Pada class “Utama” tambahkan button Download untuk tabel musik.
+- Pada class “Utama” tambahkan button Download untuk tabel musik. <br>
   <img width="439" height="325" alt="image" src="https://github.com/user-attachments/assets/d8cad569-843d-4398-8d9c-bd461e6f5a8f" /> <br>
   Kode ini digunakan untuk mengekspor data musik dari tabel ke file CSV. Pengguna memilih lokasi penyimpanan melalui JFileChooser, kemudian program menulis setiap baris tabel ke file dengan pemisah titik koma. Jika file sudah ada, akan muncul konfirmasi untuk menimpanya. <br>
   <img width="726" height="666" alt="image" src="https://github.com/user-attachments/assets/f792523c-e437-4476-99a5-0de5d52ea2f2" /> <br>
